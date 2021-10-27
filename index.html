@@ -1,0 +1,45 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="background1.jpg">
+        <center>
+            <div class="btn btn-warning heading">
+              <h3>AI Ping Pong Game</h3>
+              <button class="btn-warning" data-toggle="modal" data-target="#myModal">Instructions</button>
+            </div>
+            <br><br>
+            <div id="canvas"></div>
+            <div id="video"></div>
+
+            <div id="myModal" class="modal fade">
+              <div class="modal-dialoge">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h3>Instructions</h3>
+                  </div>
+      
+                  <div class="modal-body">
+                    Move your nose up and down to move the paddle. The ball will increace speed evry time you hit it. The oppsing player is a computer and you have to try and beat it!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </center>
+          <div id="footer">Made by Geetham Sunkara|Game Credit: Prashant Shukla</div>
+        <script src="main.js"></script>
+    </body>
+</html>
